@@ -7,7 +7,7 @@ function showPresent1() {
 	var ans1 = prompt("За сколько секунд свет долетает от Солнца до Земли, где живет самая прекрасная и привлекательная мадмуазель, а по совместительству - моя любимая жена? ;)");
 	// var ans1 = prompt("Сама суть смелой и свободной женщины. Этот подарок ты сможешь получить только вечером ¯\_(ツ)_/¯");
 	while (ans1 != "499") {
-		ans1 = prompt("Неть! Нужна подсказка - поцелуй мужа :D");
+		ans1 = prompt("Неть! Штраф - поцелуй мужа :D");
 	};
 	alert("Да! Но этот подарок ты сможешь получить только вечером¯\\_(ツ)_/¯ P.S. Irresistibly sexy, irrepressibly spirited...");
 	present1.innerHTML = "";
@@ -16,7 +16,7 @@ function showPresent1() {
 function showPresent2() {
 	var ans2 = prompt("Какую программу создали Jeff Smith и Ge Wang?");
 	while (ans2 != "smule") {
-		ans2 = prompt("Неть!!! Let's music together!");
+		ans2 = prompt("Неть!!! Let's music together! (Не забываем про штрафные ;)");
 	};
 	alert("Yep! Теперь проверяем твой Gmail! ;)");
 	present2.innerHTML = "";
